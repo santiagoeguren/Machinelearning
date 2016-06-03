@@ -1,10 +1,4 @@
-# Prediction Assignment Writeup
-Tsung-Hsien Lin  
-July 27, 2014  
 
-The goal of this project is to predict the manner in which people did the exercise.
-
-The data for this project come from this source: http://groupware.les.inf.puc-rio.br/har.
 
 ## Pre-processing Data
 Several columns of the raw data set have string contaning nothing, so we delete those columns first, and we also delete the first 7 columns: X, user_name, raw_timestamp_part_1, raw_timestamp_part_2, cvtd_timestamp, new_window, num_window. These features are obviously not related to predict the outcome.
